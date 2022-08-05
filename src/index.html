@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="./style.css" />
         <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-fire@2/tsparticles.preset.fire.bundle.min.js"></script>
     </head>
-    <body style="background-color: #000">
-        <div id="container">
-            <div id="tsparticles"></div>
-            <canvas id="game"></canvas>
-        </div>
-        <!-- partial:index.partial.html -->
-        <!-- partial -->
+    <body style="background: radial-gradient(#4a0000, #000)">
+        <canvas id="game"></canvas>
         <script src="./script.js"></script>
-        <script src="./background.js"></script>
+        <script>
+            if (screen && screen.width > 480) {
+                document.write('<script type="text/javascript" src="./background.js"><\/script>');
+            }
+        </script>
+        <!-- <script src="./background.js"></script> -->
     </body>
 </html>
