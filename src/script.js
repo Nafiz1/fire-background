@@ -8,7 +8,7 @@ var mouseX = 0;
 var mouseY = 0;
 
 var speed = 3;
-var size = 20;
+var size = 18;
 
 let mouseDown = false;
 document.body.onmousedown = () => {
