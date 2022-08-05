@@ -118,7 +118,7 @@ function init() {
         });
 
         //Update the particles every frame
-        var timer = setInterval(update, 15);
+        var timer = setInterval(update, 40);
     } else {
         alert("Canvas not supported.");
     }
