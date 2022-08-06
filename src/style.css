@@ -53,13 +53,19 @@ canvas {
 }
 
 #hold {
-    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
     text-align: center;
-    margin-top: 20vh;
-    margin: auto;
-    width: 50%;
-    padding: 5%;
+    margin: 10vh auto auto 0;
+    width: auto;
+    height: 10vh;
     animation-name: myAnimation;
     animation-duration: 6000ms;
     animation-fill-mode: forwards;
+}
+
+h1 {
+    font-size: 3vh;
 }
