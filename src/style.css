@@ -55,6 +55,7 @@ canvas {
 #hold {
     font-size: large;
     text-align: center;
+    margin-top: 20vh;
     margin: auto;
     width: 50%;
     padding: 5%;
