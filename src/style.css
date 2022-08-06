@@ -58,14 +58,14 @@ canvas {
     align-content: center;
     flex-direction: column;
     text-align: center;
-    margin: 10vh auto auto 0;
+    margin: 5vh auto auto 0;
     width: auto;
     height: 10vh;
-    animation-name: myAnimation;
-    animation-duration: 6000ms;
-    animation-fill-mode: forwards;
 }
 
 h1 {
+    animation-name: myAnimation;
+    animation-duration: 6000ms;
+    animation-fill-mode: forwards;
     font-size: 3vh;
 }
