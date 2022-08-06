@@ -32,3 +32,33 @@ canvas {
     background-size: cover;
     z-index: -1;
 }
+
+@keyframes myAnimation {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        display: none;
+        opacity: 0;
+    }
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-15px);
+    }
+}
+
+#hold {
+    font-size: large;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 5%;
+    animation-name: myAnimation;
+    animation-duration: 6000ms;
+    animation-fill-mode: forwards;
+}
