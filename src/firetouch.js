@@ -60,7 +60,6 @@ function touchHandler(event) {
     );
 
     first.target.dispatchEvent(simulatedEvent);
-    event.preventDefault();
 }
 
 //The class we will use to store particles. It includes x and y
