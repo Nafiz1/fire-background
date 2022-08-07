@@ -11,6 +11,7 @@ html {
 }
 
 canvas {
+    touch-action: none;
     display: block;
     position: absolute;
     top: 0;
